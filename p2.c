@@ -23,13 +23,11 @@ else
 } 
 } 
 
-// Using FCFS Algorithm to find Waiting time 
 void get_wt_time(int wt[]) 
 { 
-// declaring service array that stores cumulative burst time 
+ 
 int service[50]; 
-
-// Initilising initial elements of the arrays 
+ 
 service[0]=0; 
 wt[0]=0; 
 
@@ -38,9 +36,7 @@ for(int i=1;i<totalprocess;i++)
 { 
 service[i]=proc[i-1].bt+service[i-1]; 
 
-wt[i]=service[i]-proc[i].at+1; 
-
-// If waiting time is negative, change it into zero 
+wt[i]=service[i]-proc[i].at+1;  
 	
 	if(wt[i]<0) 
 	{ 
@@ -51,8 +47,7 @@ wt[i]=service[i]-proc[i].at+1;
 } 
 
 void get_tat_time(int tat[],int wt[]) 
-{ 
-// Filling turnaroundtime array 
+{  
 
 for(int i=0;i<totalprocess;i++) 
 { 
