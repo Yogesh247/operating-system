@@ -224,9 +224,15 @@ dis10=-dis10;
 }
 
 printf("distance between cylinder number 1750 & 130 is %d \n",dis10);
+  dis11=dis1+dis2+dis3+dis4+dis5+dis6+dis7+dis8+dis9+dis10;
+
+printf("total distance using FIFO algorithm is %d",dis11);
+
+return 0;
+
+}
 
 
-//printf("%d%d%d%d%d%d%d%d%d%d",dis1,dis2,dis3,dis4,dis5,dis6,dis7,dis8,dis9,dis10);
 
 
 
