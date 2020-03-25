@@ -2,9 +2,7 @@
 
 using namespace std; 
 
-#define totalprocess 5 
-
-// Making a struct to hold the given input 
+#define totalprocess 5  
 
 struct process 
 { 
