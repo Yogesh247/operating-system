@@ -11,11 +11,6 @@ int at,bt,pr,pno;
 
 process proc[50]; 
 
-/* 
-Writing comparator function to sort according to priority if 
-arrival time is same 
-*/
-
 bool comp(process a,process b) 
 { 
 if(a.at == b.at) 
