@@ -73,6 +73,36 @@ printf(" distance between cylinder number 86 & 1470 is %d \n",dis3);
 
 
 dis4=x4-x5;
+  if(dis4>0)
+
+{
+dis4=dis4;
+}
+
+else
+
+{
+dis4=-dis4;
+}
+
+printf(" distance between cylinder number 1470 & 913 is %d \n",dis4);
+
+
+
+dis5=x5-x6;
+
+
+if(dis5>0)
+
+{
+dis5=dis5;
+}
+
+else
+
+{
+dis5=-dis5;
+
 
 
 
