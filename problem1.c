@@ -209,6 +209,26 @@ dis9=-dis9;
 }
 
 printf("distance between cylinder number 1022 & 1750 is %d \n",dis9);
+dis10=x10-x11;
+
+if(dis10>0)
+
+{
+dis10=dis10;
+}
+
+else
+
+{
+dis10=-dis10;
+}
+
+printf("distance between cylinder number 1750 & 130 is %d \n",dis10);
+
+
+//printf("%d%d%d%d%d%d%d%d%d%d",dis1,dis2,dis3,dis4,dis5,dis6,dis7,dis8,dis9,dis10);
+
+
 
 
 
