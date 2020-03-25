@@ -143,6 +143,76 @@ dis7=-dis7;
 }
 
 printf("distance between cylinder number 948 & 1509 is %d \n",dis7);
+  dis8=x8-x9;
+
+if(dis8>0)
+
+{
+dis8=dis8;
+}
+
+else
+
+{
+dis8=-dis8;
+}
+
+printf("distance between cylinder number 1509 & 1022 is %d \n",dis8);
+
+
+
+dis9=x9-x10;
+
+if(dis9>0)
+
+{
+dis9=dis9;
+}
+
+else
+
+{
+dis9=-dis9;
+}
+
+printf("distance between cylinder number 1022 & 1750 is %d \n",dis9);
+  dis8=x8-x9;
+
+if(dis8>0)
+
+{
+dis8=dis8;
+}
+
+else
+
+{
+dis8=-dis8;
+}
+
+printf("distance between cylinder number 1509 & 1022 is %d \n",dis8);
+
+
+
+dis9=x9-x10;
+
+if(dis9>0)
+
+{
+dis9=dis9;
+}
+
+else
+
+{
+dis9=-dis9;
+}
+
+printf("distance between cylinder number 1022 & 1750 is %d \n",dis9);
+
+
+
+
 
 
 
