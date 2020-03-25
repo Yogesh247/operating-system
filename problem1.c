@@ -40,3 +40,22 @@ printf("previos request at cylinder number is %d \n",x1);
 printf("currently serving a request at cylinder number is %d \n",x2);
 
 dis1=x1-x2;
+  if(dis2>0)
+
+{
+dis2=dis2;
+}
+
+else
+
+{
+dis2=-dis2;
+}
+
+printf("distance between cylinder number 143 & 86 is %d \n",dis2);
+
+
+
+dis3=x3-x4;
+
+
