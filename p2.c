@@ -80,8 +80,7 @@ get_tat_time(tat,wt);
 	
 int stime[50],ctime[50]; 
 stime[0]=1; 
-ctime[0]=stime[0]+tat[0]; 
-// calculating starting and ending time 
+ctime[0]=stime[0]+tat[0];  
 for(int i=1;i<totalprocess;i++) 
 	{ 
 		stime[i]=ctime[i-1]; 
